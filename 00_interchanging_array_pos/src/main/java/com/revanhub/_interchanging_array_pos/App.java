@@ -20,8 +20,7 @@ public class App {
         },
         {
             13,14,15,16
-        }
-        
+        }        
     };
     public static void leerArray(int[][] array) {
          for (int i = 0; i < array.length; i++) {
@@ -51,10 +50,9 @@ public class App {
                             System.out.println("Cambio:  " + array[seleccionado][contador]+ "  por " + acc);
                         }                        
                     }
-                    //contador++;
                 }
                 if (seleccionado == array.length - 1) {
-                    seleccionado = 0;
+                    break;
                 }
                   seleccionado++;
             }
